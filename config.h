@@ -5,17 +5,17 @@
 #include "selfrestart.c"
 
 /* appearance */
-static const unsigned int borderpx    = 1;        /* border pixel of windows */
-static const unsigned int gappx       = 5;        /* gaps between windows */
-static const unsigned int snap        = 32;       /* snap pixel */
-static const int showbar              = 1;        /* 0 means no bar */
-static const int topbar               = 1;        /* 0 means bottom bar */
-static const char *fonts[]            = { "monospace:size=12" };
-static const char dmenufont[]         = "monospace:size=12";
-static const char col_bg[]            = "#181818"; /* background */
-static const char col_fg[]            = "#868aac"; /* foreground */
-static const char col_acc[]           = "#8253a1"; /* accent */
-static const char *colors[][3]      = {
+static const unsigned int borderpx = 1;         /* border pixel of windows */
+static const unsigned int gappx    = 5;         /* gaps between windows */
+static const unsigned int snap     = 32;        /* snap pixel */
+static const int showbar           = 1;         /* 0 means no bar */
+static const int topbar            = 1;         /* 0 means bottom bar */
+static const char *fonts[]         = { "monospace:size=12" };
+static const char dmenufont[]      = "monospace:size=12";
+static const char col_bg[]         = "#181818"; /* background */
+static const char col_fg[]         = "#868aac"; /* foreground */
+static const char col_acc[]        = "#8253a1"; /* accent */
+static const char *colors[][3]     = {
 	/*               fg         bg          border   */
 	[SchemeNorm] = { col_fg, col_bg,  col_bg },
 	[SchemeSel]  = { col_bg, col_acc, col_acc },
